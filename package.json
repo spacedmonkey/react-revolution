@@ -1,5 +1,5 @@
 {
-  "name": "react-revolution",
+  "name": "wp-react-revolution",
   "version": "1.0.0",
   "description": "WordPress child theme for wp-react-theme.",
   "main": "src/theme.js",
