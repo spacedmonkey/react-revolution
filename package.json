@@ -1,0 +1,36 @@
+{
+  "name": "jdh-v9",
+  "version": "9.0.0",
+  "description": "WordPress theme for JDH site",
+  "main": "src/theme.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "format:js": "wp-scripts format-js",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:md:docs": "wp-scripts lint-md-docs",
+    "lint:md:js": "wp-scripts lint-md-js",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "keywords": [
+    "theme",
+    "wordpress"
+  ],
+  "author": "Jonathan Harris",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^12.6.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.4"
+  },
+  "dependencies": {
+    "@material-icons/svg": "^1.0.8",
+    "normalize.css": "^8.0.1"
+  }
+}
