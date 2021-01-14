@@ -1,0 +1,39 @@
+{
+    "name": "spacedmonkey/react-revolution",
+    "type": "wordpress-theme",
+    "description": "A WordPress theme based on the _s by Automattic, but uses react and REST API to render content. ",
+    "minimum-stability": "dev",
+  	"keywords": [
+        "WordPress",
+        "Themes"
+    ],
+    "homepage": "https://github.com/spacedmonkey/react-revolution",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/spacedmonkey/react-revolution/graphs/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "spacedmonkey/wp-react-theme": "dev-main"
+    },
+    "require-dev": {
+        "wp-cli/i18n-command": "^2.2.5",
+        "automattic/vipwpcs": "^2.2",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+        "sirbrillig/phpcs-variable-analysis": "^2.10",
+        "wp-coding-standards/wpcs": "^2.3",
+        "phpcompatibility/phpcompatibility-wp": "^2.1"
+    },
+    "scripts": {
+        "lint": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs",
+        "format": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf",
+        "make-pot": "wp i18n make-pot . languages/react-revolution.pot --exclude=assets"
+    },
+    "support": {
+        "issues": "https://github.com/spacedmonkey/react-revolution/issues",
+        "source": "https://github.com/spacedmonkey/react-revolution"
+    }
+}

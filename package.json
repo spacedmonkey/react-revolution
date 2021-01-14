@@ -1,7 +1,7 @@
 {
-  "name": "jdh-v9",
-  "version": "9.0.0",
-  "description": "WordPress theme for JDH site",
+  "name": "react-revolution",
+  "version": "1.0.0",
+  "description": "WordPress child theme for wp-react-theme.",
   "main": "src/theme.js",
   "scripts": {
     "build": "wp-scripts build",
