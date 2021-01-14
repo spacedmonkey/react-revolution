@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.6",
-        "spacedmonkey/wp-react-theme": "dev-main"
+        "spacedmonkey/wp-react-theme": "@stable"
     },
     "require-dev": {
         "wp-cli/i18n-command": "^2.2.5",
