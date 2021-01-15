@@ -1033,11 +1033,6 @@ textarea {
 	display: block;
 }
 @media screen and (max-width: 992px) {
-	.entry-content .alignwide {
-		margin-left: -80px;
-		margin-right: -80px;
-	}
-
 	.entry-content .alignfull {
 		margin-left: calc(-100vw / 2 + 100% / 2);
 		margin-right: calc(-100vw / 2 + 100% / 2);
@@ -1164,7 +1159,7 @@ textarea {
 .page-header {
 	margin: 0 0 25px;
 }
-
+.entry-header h1,
 .page-header .page-title {
 	margin: 0 0 10px;
 }
