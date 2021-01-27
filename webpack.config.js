@@ -7,6 +7,8 @@ const defaultConfig = require( '@wordpress/scripts/config/webpack.config' );
  */
 const OptimizeCSSAssetsPlugin = require( 'optimize-css-assets-webpack-plugin' );
 const MiniCssExtractPlugin = require( 'mini-css-extract-plugin' );
+const WebpackRTLPlugin = require('webpack-rtl-plugin');
+const WebpackBar = require( 'webpackbar' );
 const path = require( 'path' );
 
 module.exports = {
@@ -26,6 +28,13 @@ module.exports = {
 		...defaultConfig.plugins,
 		new MiniCssExtractPlugin( {
 			filename: 'theme.css',
+		} ),
+		new WebpackRTLPlugin({
+			filename: 'theme-rtl.css',
+		} ),
+		new WebpackBar( {
+			name: 'Theme',
+			color: '#fddb33',
 		} ),
 	],
 };
