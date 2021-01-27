@@ -27,11 +27,12 @@
   "devDependencies": {
     "@wordpress/scripts": "^12.6.1",
     "extract-text-webpack-plugin": "^3.0.2",
-    "optimize-css-assets-webpack-plugin": "^5.0.4"
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "webpack-rtl-plugin": "^2.0.0",
+    "webpackbar": "^5.0.0-3"
   },
   "dependencies": {
     "@material-icons/svg": "^1.0.8",
-    "normalize.css": "^8.0.1",
-    "webpack-rtl-plugin": "^2.0.0"
+    "normalize.css": "^8.0.1"
   }
 }
